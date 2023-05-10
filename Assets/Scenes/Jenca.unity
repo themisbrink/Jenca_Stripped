@@ -9642,18 +9642,19 @@ MonoBehaviour:
   m_text: '- Mouse over a Tower to focus on them.
 
 
-    - Hold Right Button to rotate
-    Tower.
+    - Hold the Right Button to
+    rotate focused Tower.
 
 
     - Right click to reset rotation.
 
 
-    - Left click on Block for
-    information.
+    - Left click
+    on a Block for information.
 
 
-    - Click Order Button to change order on Towers.
+    - Click the Order Button to change Tower''s
+    order.
 
 
 '
@@ -14932,7 +14933,7 @@ RectTransform:
   m_GameObject: {fileID: 8585929704865563090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8374583617877627074}
@@ -15196,7 +15197,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 183
+    m_Bits: 55
 --- !u!114 &8552767206980364434
 MonoBehaviour:
   m_ObjectHideFlags: 0

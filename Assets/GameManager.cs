@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     public List<GameObject> stackFoc = new List<GameObject>();
     public List<GameObject> stacks = new List<GameObject>();
     public List<Rigidbody> blockRigids = new List<Rigidbody>();
-    // public GameObject focusedStack;
+    
     public bool rotating = false;
     public bool canRotate = true;
     public GameObject testButton;
@@ -50,13 +50,6 @@ public class GameManager : MonoBehaviour
         StartCoroutine(GetJson());
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(GetJson());
-        }
-    }
 
     IEnumerator GetJson()
     {
